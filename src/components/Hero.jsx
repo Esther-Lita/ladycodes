@@ -4,9 +4,10 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import logoLaravel from '@/images/logos/laravel.svg'
 import logoMirage from '@/images/logos/mirage.svg'
+import logoCal from '@/images/logos/cal.svg'
 import logoStatamic from '@/images/logos/statamic.svg'
 import logoStaticKit from '@/images/logos/statickit.svg'
-import logoTransistor from '@/images/logos/transistor.svg'
+import logoAppFlowy from '@/images/logos/AppFlowy.svg'
 import logoOSSC from '@/images/logos/ossc.svg'
 
 export function Hero() {
@@ -62,7 +63,7 @@ export function Hero() {
       </div>
       <div className="mt-36 lg:mt-44">
         <p className="font-display text-base text-slate-900">
-          Trusted by these six companies so far
+          Supported by these open source companies
         </p>
         <ul
           role="list"
@@ -70,14 +71,24 @@ export function Hero() {
         >
           {[
             [
-              { name: 'OSS.Capital', logo: logoOSSC },
-              { name: 'Transistor', logo: logoTransistor },
-              { name: 'StaticKit', logo: logoStaticKit },
-            ],
-            [
-              { name: 'Mirage', logo: logoMirage },
-              { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
+              {
+                name: 'OSS.Capital',
+                logo: logoOSSC,
+                href: 'https://oss.capital',
+                height: 30,
+              },
+              {
+                name: 'Cal.com',
+                logo: logoCal,
+                href: 'https://cal.com',
+                height: 24,
+              },
+              {
+                name: 'AppFlowy',
+                logo: logoAppFlowy,
+                href: 'https://appflowy.io',
+                height: 30,
+              },
             ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
@@ -87,7 +98,12 @@ export function Hero() {
               >
                 {group.map((company) => (
                   <li key={company.name} className="flex">
-                    <Image src={company.logo} alt={company.name} unoptimized />
+                    <Image
+                      height={company.height}
+                      src={company.logo}
+                      alt={company.name}
+                      unoptimized
+                    />
                   </li>
                 ))}
               </ul>
