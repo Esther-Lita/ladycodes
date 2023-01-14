@@ -7,7 +7,7 @@ import logoMirage from '@/images/logos/mirage.svg'
 import logoStatamic from '@/images/logos/statamic.svg'
 import logoStaticKit from '@/images/logos/statickit.svg'
 import logoTransistor from '@/images/logos/transistor.svg'
-import logoTuple from '@/images/logos/tuple.svg'
+import logoOSSC from '@/images/logos/ossc.svg'
 
 export function Hero() {
   return (
@@ -70,8 +70,8 @@ export function Hero() {
         >
           {[
             [
+              { name: 'OSS.Capital', logo: logoOSSC },
               { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
               { name: 'StaticKit', logo: logoStaticKit },
             ],
             [
