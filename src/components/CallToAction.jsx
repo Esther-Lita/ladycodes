@@ -24,11 +24,11 @@ export function CallToAction() {
             We need your help!
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            Sponsor <strong>Women in OSS</strong> today to help us 10x the
-            amount of women in Open Source by 2030.
+            Join <strong>Women in Tech</strong> today to help us 10x the amount
+            of women in Open Source by 2030.
           </p>
-          <Button href="/register" color="white" className="mt-10">
-            Become an Ally
+          <Button href="/slack" color="white" className="mt-10">
+            Join our Slack
           </Button>
         </div>
       </Container>

@@ -10,7 +10,7 @@ export default function Register() {
   return (
     <>
       <Head>
-        <title>Sign Up - WiOSS</title>
+        <title>Sign Up - LadyCodes</title>
       </Head>
       <AuthLayout>
         <div className="flex flex-col">

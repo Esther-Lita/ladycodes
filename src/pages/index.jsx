@@ -14,7 +14,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>WiOSS - to increase the amount of women in open source</title>
+        <title>
+          LadyCodes - to increase the amount of women in open source
+        </title>
         <meta
           name="description"
           content="The gender imbalance in open source remains profound: 95% of respondents are men; just 3% are women and 1% are non-binary"

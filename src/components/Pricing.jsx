@@ -137,8 +137,8 @@ export function Pricing() {
               'Advertise your open source project',
               'Support Women in Open Source',
               'Access to our Slack community',
-              'Access to WiOSS Bounties',
-              'Access to WiOSS Hiring',
+              'Access to LadyCodes Bounties',
+              'Access to LadyCodes Hiring',
               'Get a free sticker pack',
               'Get a free t-shirt',
             ]}
@@ -148,7 +148,7 @@ export function Pricing() {
             price="$166"
             description="For Investors and professionals"
             href="/register"
-            features={['Access WiOSS Investor Network']}
+            features={['Access LadyCodes Investor Network']}
           />
         </div>
       </Container>

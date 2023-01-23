@@ -10,7 +10,7 @@ export default function Login() {
   return (
     <>
       <Head>
-        <title>Sign In - WiOSS</title>
+        <title>Sign In - LadyCodes</title>
       </Head>
       <AuthLayout>
         <div className="flex flex-col">

@@ -11,7 +11,7 @@ const testimonials = [
   [
     {
       content:
-        'WiOSS is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'LadyCodes is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
       author: {
         name: 'Sheryl Berge',
         role: 'CEO at Lynch LLC',
@@ -31,7 +31,7 @@ const testimonials = [
   [
     {
       content:
-        'The best part about WiOSS is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+        'The best part about LadyCodes is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
       author: {
         name: 'Leland Kiehn',
         role: 'Founder of Kiehn and Sons',
@@ -40,7 +40,7 @@ const testimonials = [
     },
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with WiOSS. Suspicious but I can’t say I don’t love it.',
+        'There are so many things I had to do with my old software that I just don’t do at all with LadyCodes. Suspicious but I can’t say I don’t love it.',
       author: {
         name: 'Erin Powlowski',
         role: 'COO at Armstrong Inc',
@@ -51,7 +51,7 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with WiOSS I somehow don’t have to do that anymore. Nervous to travel there now though.',
+        'I used to have to remit tax to the EU and with LadyCodes I somehow don’t have to do that anymore. Nervous to travel there now though.',
       author: {
         name: 'Peter Renolds',
         role: 'Founder of West Inc',
@@ -88,7 +88,7 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Givin women a voice in OSS
+            Giving women a voice in tech
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Open Source is everywhere. It impacts every aspect of our lives, but
