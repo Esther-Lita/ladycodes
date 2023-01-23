@@ -29,9 +29,11 @@ export default function Home() {
          */}{' '}
         {/*         <SecondaryFeatures />
          */}{' '}
-        <CallToAction />
-        <Testimonials />
-        <Pricing />
+        {/*         <CallToAction />
+         */}{' '}
+        {/* <Testimonials /> */}
+        {/*         <Pricing />
+         */}{' '}
         <Faqs />
       </main>
       <Footer />
