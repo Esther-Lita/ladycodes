@@ -7,13 +7,13 @@ import logoMirage from '@/images/logos/mirage.svg'
 import logoCal from '@/images/logos/cal.svg'
 import logoStatamic from '@/images/logos/statamic.svg'
 import logoStaticKit from '@/images/logos/statickit.svg'
-import logoAppFlowy from '@/images/logos/AppFlowy.svg'
+import logoAppFlowy from '@/images/logos/appflowy.svg'
 import logoOSSC from '@/images/logos/ossc.svg'
 
 export function Hero() {
   return (
     <Container className="pt-20 pb-16 text-center lg:pt-32">
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+      <h1 className="max-w-4xl mx-auto text-5xl font-medium tracking-tight font-display text-slate-900 sm:text-7xl">
         We need more
         <span className="relative whitespace-nowrap text-fuchsia-600">
           <svg
@@ -27,7 +27,7 @@ export function Hero() {
           <span className="relative">Women in Tech.</span>
         </span>
       </h1>
-      <blockquote className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+      <blockquote className="max-w-2xl mx-auto mt-6 text-lg tracking-tight text-slate-700">
         “The gender imbalance in open source remains profound: 95% of
         respondents are men;{' '}
         <strong>just 3% are women and 1% are non-binary.</strong>”
@@ -35,18 +35,18 @@ export function Hero() {
           {' '}
           –{' '}
           <a
-            className="text-fuchsia-500 underline"
+            className="underline text-fuchsia-500"
             href="https://opensourcesurvey.org/2017/"
           >
             opensourcesurvey.org
           </a>
         </cite>
       </blockquote>
-      <strong className="mx-auto mt-4 block max-w-xl text-fuchsia-600">
+      <strong className="block max-w-xl mx-auto mt-4 text-fuchsia-600">
         We&apos;re building the first inclusive career accelerator specifically
         for women in open source focussed on mentorship, community and funding.
       </strong>
-      <div className="mt-10 flex justify-center gap-x-4">
+      <div className="flex justify-center mt-10 gap-x-4">
         <Button href="/slack">Join our Slack</Button>
         <Button
           href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -56,12 +56,12 @@ export function Hero() {
         </Button>
       </div>
       <div className="mt-36 lg:mt-44">
-        <p className="font-display text-base text-slate-900">
+        <p className="text-base font-display text-slate-900">
           Supported by these open source companies
         </p>
         <ul
           role="list"
-          className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
+          className="flex items-center justify-center mt-8 gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
         >
           {[
             [
