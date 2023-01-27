@@ -27,31 +27,16 @@ export function Hero() {
           <span className="relative">Women in Tech.</span>
         </span>
       </h1>
-      <blockquote className="max-w-2xl mx-auto mt-6 text-lg tracking-tight text-slate-700">
-        “The gender imbalance in open source remains profound: 95% of
-        respondents are men;{' '}
-        <strong>just 3% are women and 1% are non-binary.</strong>”
-        <cite className="not-italic">
-          {' '}
-          –{' '}
-          <a
-            className="underline text-fuchsia-500"
-            href="https://opensourcesurvey.org/2017/"
-          >
-            opensourcesurvey.org
-          </a>
-        </cite>
-      </blockquote>
+
       <strong className="block max-w-xl mx-auto mt-4 text-fuchsia-600">
-        We&apos;re building the first inclusive career accelerator specifically
-        for women in open source focussed on mentorship, community and funding.
+        We&apos;re building a space specifically for women in tech, focussed on
+        mentorship, community and funding.
       </strong>
       <div className="flex justify-center mt-10 gap-x-4">
-        <Button href="/slack">Join our Slack</Button>
-        <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          variant="outline"
-        >
+        <Button href="https://join.slack.com/t/ladycodes/shared_invite/zt-1nryy4ver-rZ0VMqlUYsZlxxJxkJLiOA">
+          Join our Slack
+        </Button>
+        <Button href="https://cal.com/esther-lita/lady-codes" variant="outline">
           Contact us
         </Button>
       </div>

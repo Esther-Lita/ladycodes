@@ -22,9 +22,19 @@ export default function Home() {
           content="The gender imbalance in software development remains profound."
         />
       </Head>
-  
+      <Header />
       <main>
         <Hero />
+        {/*         <PrimaryFeatures />
+         */}{' '}
+        {/*         <SecondaryFeatures />
+         */}{' '}
+        {/*         <CallToAction />
+         */}{' '}
+        {/* <Testimonials /> */}
+        {/*         <Pricing />
+         */}{' '}
+        <Faqs />
       </main>
       <Footer />
     </>

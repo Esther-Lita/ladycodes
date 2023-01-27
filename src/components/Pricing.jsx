@@ -54,7 +54,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
         featured ? 'order-first bg-fuchsia-600 py-8 lg:order-none' : 'lg:py-8'
       )}
     >
-      <h3 className="mt-5 font-display text-lg text-white">{name}</h3>
+      <h3 className="mt-5 text-lg text-white font-display">{name}</h3>
       <p
         className={clsx(
           'mt-2 text-base',
@@ -63,7 +63,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
       >
         {description}
       </p>
-      <p className="order-first font-display text-5xl font-light tracking-tight text-white">
+      <p className="order-first text-5xl font-light tracking-tight text-white font-display">
         {price}
         <small className="text-sm tracking-normal">
           /month, billed annually
@@ -101,11 +101,11 @@ export function Pricing() {
     <section
       id="pricing"
       aria-label="Pricing"
-      className="bg-slate-900 py-20 sm:py-32"
+      className="py-20 bg-slate-900 sm:py-32"
     >
       <Container>
         <div className="md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+          <h2 className="text-3xl tracking-tight text-white font-display sm:text-4xl">
             Any support is{' '}
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-fuchsia-400" />
@@ -116,14 +116,14 @@ export function Pricing() {
             See what plan works for you best.
           </p>
         </div>
-        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
+        <div className="grid max-w-2xl grid-cols-1 mt-16 -mx-4 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
             name="Ally"
             price="$9"
             description="Show your support and get access to our Slack community as an ally."
             href="/register"
             features={[
-              'Support Women in Open Source',
+              'Support Women in Tech',
               'Access to our Slack community',
             ]}
           />
