@@ -15,7 +15,7 @@ export default function Register() {
       <AuthLayout>
         <div className="flex flex-col">
           <Link href="/" aria-label="Home">
-            <Logo className="h-5 w-auto" />
+            <Logo className="w-auto h-10" />
           </Link>
           <div className="mt-20">
             <h2 className="text-lg font-semibold text-gray-900">
@@ -35,7 +35,7 @@ export default function Register() {
         </div>
         <form
           action="#"
-          className="mt-10 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2"
+          className="grid grid-cols-1 mt-10 gap-y-8 gap-x-6 sm:grid-cols-2"
         >
           <TextField
             label="First name"
