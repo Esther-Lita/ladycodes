@@ -10,16 +10,13 @@ const baseStyles = {
 
 const variantStyles = {
   solid: {
-    fuchsia:
-      'bg-fuchsia-900 text-white hover:bg-fuchsia-700 hover:text-fuchsia-100 active:bg-fuchsia-800 active:text-fuchsia-300 focus-visible:outline-fuchsia-900',
-    fuchsia:
-      'bg-fuchsia-600 text-white hover:text-fuchsia-100 hover:bg-fuchsia-500 active:bg-fuchsia-800 active:text-fuchsia-100 focus-visible:outline-fuchsia-600',
+    pink: 'bg-fuchsia-900 text-white hover:bg-fuchsia-700   focus-visible:outline-button-pink font-semibold',
+    pink: 'bg-button-pink text-white  hover:bg-brand-pink  focus-visible:outline-button-pink font-semibold',
     white:
-      'bg-white text-fuchsia-900 hover:bg-fuchsia-50 active:bg-fuchsia-200 active:text-fuchsia-600 focus-visible:outline-white',
+      'bg-white text-button-pink hover:bg-pink-50   focus-visible:outline-white font-semibold',
   },
   outline: {
-    fuchsia:
-      'ring-fuchsia-200 text-fuchsia-700 hover:text-fuchsia-900 hover:ring-fuchsia-300 active:bg-fuchsia-100 active:text-fuchsia-600 focus-visible:outline-fuchsia-600 focus-visible:ring-fuchsia-300',
+    pink: 'ring-button-pink/30 text-button-pink hover:text-brand-pink hover:ring-button-pink/70  focus-visible:outline-button-pink focus-visible:ring-button-pink font-semibold',
     white:
       'ring-fuchsia-700 text-white hover:ring-fuchsia-500 active:ring-fuchsia-700 active:text-fuchsia-400 focus-visible:outline-white',
   },
@@ -27,7 +24,7 @@ const variantStyles = {
 
 export function Button({
   variant = 'solid',
-  color = 'fuchsia',
+  color = 'pink',
   className,
   href,
   ...props

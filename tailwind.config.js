@@ -20,6 +20,12 @@ module.exports = {
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     extend: {
+      colors: {
+        'brand-pink': '#FF47AC',
+        'primary-dark': '#40122B',
+        'button-pink': '#EB429F',
+        'dark-pink': '#BF3681',
+      },
       borderRadius: {
         '4xl': '2rem',
       },
