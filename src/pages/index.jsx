@@ -27,14 +27,14 @@ export default function Home() {
       <main>
         <Hero />
         <PrimaryFeatures />
-        <SecondaryFeatures />
-
+        {/* <SecondaryFeatures /> */}
+<div className='my-40 '></div>
         <CallToAction />
 
-        <Testimonials />
+        {/* <Testimonials /> */}
       
 
-        <Faqs />
+        {/* <Faqs /> */}
       </main>
       <Footer />
     </>

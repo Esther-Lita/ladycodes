@@ -5,30 +5,35 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import esther from '../images/esther.jpeg'
+import purpose from '../images/purpose.jpg'
+import motivation from '../images/motivation.jpg'
+import community from '../images/community.jpg'
+import planning from '../images/planning.jpg'
+
 const features = [
   {
     title: 'Motivation',
     description:
-      "It's a fact that with time also comes the lack of motivation to keep pursuing the once desired goal.",
-    image: esther,
+      "With time most people struggle to find motivation to keep going. keeping the excitement and the positive actitude we had in the beggining of the journey is not always easy.",
+    image: motivation,
   },
   {
     title: 'Purpose',
     description:
-      'Having a purpose brings meaning to life itself, imagine what could it bring to your carrer.',
-    image: esther,
+      'Having a purpose brings meaning to life itself, imagine what could it bring to your carrer. ',
+    image: purpose,
   },
   {
     title: 'Community',
-    description: 'We understand how important this part is! With our contribution we help the community grow but at the same time the influence from the tech community can bring a huge impact in our careers.',
-    image: esther,
+    description:
+      'We understand how important this part is! With our contribution we help the community grow but at the same time the influence from the tech community can bring a huge impact in our careers.',
+    image: community,
   },
   {
     title: 'The plan',
     description:
       'Sometimes the best part of achieving a milestone is to know what we want to conquer next, it can be very scary on the other hand if we have no idea what is next when this is done.',
-    image: esther,
+    image: planning,
   },
 ]
 
@@ -72,9 +77,7 @@ export function PrimaryFeatures() {
               <span className="text-button-pink">career obstacles</span> and
               conquer them
             </h2>
-            <p className="mt-6 text-lg tracking-tight text-slate-600">
-            
-            </p>
+            <p className="mt-6 text-lg tracking-tight text-slate-600"></p>
           </div>
           <Tab.Group
             as="div"
@@ -83,7 +86,7 @@ export function PrimaryFeatures() {
           >
             {({ selectedIndex }) => (
               <>
-                <div className="flex pb-4 -mx-4 overflow-x-auto sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5">
+                <div className="flex pb-4 -mx-4 overflow-x-auto sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5 ">
                   <Tab.List className="relative z-10 flex px-4 gap-x-4 whitespace-nowrap sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal">
                     {features.map((feature, featureIndex) => (
                       <div
@@ -131,9 +134,9 @@ export function PrimaryFeatures() {
                           {feature.description}
                         </p>
                       </div>
-                      <div className="mx-auto mt-10 flex w-[45rem]  items-center justify-center overflow-hidden rounded-xl bg-white/20 shadow-xl shadow-primary-dark/10 sm:w-auto lg:mt-0 lg:w-4/5">
+                      <div className="mx-auto mt-16 flex w-[45rem]  items-center justify-center overflow-hidden rounded-b-xl bg-white/20 p-8 shadow-xl shadow-primary-dark/10 sm:w-auto lg:mt-0 lg:w-[52rem] lg:rounded-none  lg:py-10">
                         <Image
-                          className="my-8 rounded-xl"
+                          className="w-full rounded-xl"
                           src={feature.image}
                           alt=""
                           priority
