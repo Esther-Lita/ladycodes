@@ -7,7 +7,7 @@ import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
 import purpose from '../images/purpose.jpg'
 import motivation from '../images/motivation.jpg'
-import community from '../images/community.jpg'
+import community from '../images/community.gif'
 import planning from '../images/planning.jpg'
 
 const features = [
@@ -74,7 +74,7 @@ export function PrimaryFeatures() {
           <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
             <h2 className="text-3xl tracking-tight font-display text-primary-dark sm:text-4xl md:text-5xl">
               Identify your{' '}
-              <span className="text-button-pink">career obstacles</span> and
+              <span className=" text-button-pink ">career obstacles</span> and
               conquer them
             </h2>
             <p className="mt-6 text-lg tracking-tight text-slate-600"></p>

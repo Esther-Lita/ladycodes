@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { Suspense } from 'react'
+import dynamic from 'next/dynamic'
 
 import { AuthLayout } from '@/components/AuthLayout'
 import { Button } from '@/components/Button'
@@ -7,6 +9,11 @@ import { SelectField, TextField } from '@/components/Fields'
 import { Logo } from '@/components/Logo'
 
 export default function Register() {
+    const HankoAuth = dynamic(
+      // replace with path to your component using the <hanko-auth> element
+      () => import('@/components/HankoAuth'),
+      { ssr: false }
+    )
   return (
     <>
       <Head>
@@ -15,7 +22,7 @@ export default function Register() {
       <AuthLayout>
         <div className="flex flex-col">
           <Link href="/" aria-label="Home">
-            <Logo className="w-auto h-10" />
+            <Logo className="h-10 w-auto" />
           </Link>
           <div className="mt-20">
             <h2 className="text-lg font-semibold text-gray-900">
@@ -33,9 +40,14 @@ export default function Register() {
             </p>
           </div>
         </div>
+        <div className="my-10">
+          <Suspense fallback={'Loading ...'}>
+            <HankoAuth />
+          </Suspense>
+        </div>
         <form
           action="#"
-          className="grid grid-cols-1 mt-10 gap-y-8 gap-x-6 sm:grid-cols-2"
+          className="mt-10 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2"
         >
           <TextField
             label="First name"
